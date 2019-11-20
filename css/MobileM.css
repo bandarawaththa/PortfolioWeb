@@ -1,0 +1,532 @@
+@media all and (min-width: 320px) and (max-width: 375px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        cursor: default;
+        font-family: 'Josefin Sans', sans-serif;
+        overflow-x: hidden;
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+    }
+    body>header>div{
+        display: none;
+    }
+    body>main>nav>div{
+        position: absolute;
+        text-align: center;
+        height: 470px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0.1px 3px 10px 1px forestgreen;
+        width: 90%;
+        left: 5%;
+        top: 10px;
+        z-index: 1;
+    }
+    body>main>nav>div>img#background{
+        width: 100%;
+        height: 40%;
+    }
+    body>main>nav>div>img#me{
+        position: absolute;
+        margin: auto;
+        width: 35%;
+        height: 25%;
+        border-radius: 100%;
+        top: 0;
+        box-shadow: 0.1px 3px 10px 1px cyan;
+        bottom: 12%;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+    body>main>nav>div>h1#name{
+        font-size: 30px;
+        position: relative;
+        top: 15%;
+        color: purple;
+    }
+    body>main>nav>div>h1#dis{
+        font-size: 15px;
+        position: relative;
+        top: 13%;
+        color: green;
+    }
+    body>main>nav>div>ul{
+        list-style: none;
+        position: relative;
+        top: 15%;
+        color: red;
+    }
+    body>main>nav>div>ul>a>li{
+        display: inline;
+        font-size: 20px;
+        cursor: pointer;
+        margin: 20px;
+    }
+    body>main>nav>div>div{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+    }
+    body>main>nav>div>div>ul{
+        list-style: none;
+    }
+    body>main>nav>div>div>ul>a>li{
+        display: inline;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    body>main>nav>div>div>ul>a>li#list1{
+        position: absolute;
+        left: 30px;
+    }
+    body>main>nav>div>div>ul>a>li#list2{
+        position: absolute;
+        right: 30px;
+    }
+    body>main>nav>div>div>ul>a>li>h2{
+        display: inline;
+        margin-right: 15px;
+        font-size: 10px;
+    }
+    body>main>section>div#aboutme{
+        position: absolute;
+        height: 560px;
+        border-radius: 5px;
+        box-shadow: 0.1px 3px 10px 1px orangered;
+        width: 90%;
+        left: 5%;
+        top: 490px;
+        z-index: 1;
+        background: white;
+        color: black;
+    }
+    body>main>section>div#aboutme>h2{
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    body>main>section>div#aboutme>p{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    body>main>section>div#aboutme>p#p1{
+        margin-top: 20px;
+    }
+    body>main>section>div#aboutme>ul{
+        text-align: center;
+        margin-top: 0px;
+        list-style: none;
+        position: absolute;
+        width: 100%;
+        color: blue;
+        font-size: 10px;
+    }
+    body>main>section>div#aboutme>ul>li{
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    body>main>section>div#aboutme>ul>li:first-child{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    body>main>section>div#aboutme>ul>li:nth-child(2){
+        left: 0;
+        right: 0;
+        top: 20px;
+        margin: auto;
+    }
+    body>main>section>div#aboutme>ul>li:nth-child(3){
+        left: 0;
+        right: 0;
+        top: 40px;
+        margin: auto;
+    }
+    body>main>section>div#aboutme>ul>li:nth-child(4){
+        left: 0;
+        right: 0;
+        top: 60px;
+        margin: auto;
+    }
+    body>main>section>div#aboutme>ul>li:nth-child(5){
+        left: 0;
+        right: 0;
+        top: 80px;
+        margin: auto;
+    }
+    #interests{
+        position: absolute;
+        top: 310px;
+        color: blue;
+    }
+    body>main>section>div#aboutme>div{
+        position: absolute;
+        width: 90%;
+        height: 25%;
+        top: 350px;
+        left: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    body>main>section>div#aboutme>div>div{
+        text-align: center;
+        position: static;
+        border-radius: 5px;
+    }
+    body>main>section>div#aboutme>div>div>i{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    body>main>section>div#aboutme>div>div>p{
+        font-size: 15px;
+    }
+    #edmlover{
+        box-shadow: 0.1px 3px 10px 1px darkred;
+        height: 100%;
+        width: 100%;
+        color: darkred;
+    }
+    #comicreader{
+        box-shadow: 0.1px 3px 10px 1px forestgreen;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background: white;
+        color: forestgreen;
+    }
+    #martialartist{
+        box-shadow: 0.1px 3px 10px 1px purple;
+        height: 100%;
+        z-index: 2;
+        width: 100%;
+        background: white;
+        color: purple;
+    }
+    #photographer{
+        box-shadow: 0.1px 3px 10px 1px darkorange;
+        height: 100%;
+        width: 100%;
+        background: white;
+        z-index: 2;
+        color: darkorange;
+    }
+    body>main>section>div#skillsdiv{
+        position: absolute;
+        height: 500px;
+        width: 90%;
+        top: 1060px;
+        z-index: 1;
+        border-radius: 5px;
+        box-shadow: 0.1px 3px 10px 1px deeppink;
+        left: 5%;
+        background: url("../assets/skillback2.gif");
+    }
+    body>main>section>div#skillsdiv>div{
+        display: grid;
+        margin-top: 5px;
+        grid-gap: 5px;
+        width: 100%;
+        height: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    body>main>section>div#skillsdiv>div>div{
+        position: static;
+        text-align: center;
+    }
+    body>main>section>div#skillsdiv>div>div>div{
+        position: static;
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        background: white;
+    }
+    body>main>section>div#skillsdiv>div>div>div#javadiv{
+        box-shadow: 0.1px 3px 10px 1px orangered;
+    }
+    body>main>section>div#skillsdiv>div>div>div#sqldiv{
+        box-shadow: 0.1px 3px 10px 1px purple;
+    }
+    body>main>section>div#skillsdiv>div>div>div#jsdiv{
+        box-shadow: 0.1px 3px 10px 1px darkred;
+    }
+    body>main>section>div#skillsdiv>div>div>div#htmldiv{
+        box-shadow: 0.1px 3px 10px 1px black;
+    }
+    body>main>section>div#skillsdiv>div>div>div#cssdiv{
+        box-shadow: 0.1px 3px 10px 1px navy;
+    }
+    body>main>section>div#skillsdiv>div>div>div>img{
+        margin-top: 10%;
+        height: 70%;
+    }
+    body>main>section>div#skillsdiv>h1{
+        margin-top: 10px;
+        display: inline-block;
+        border-bottom: 2px solid blue;
+        margin-left: 30px;
+        color: blue;
+        font-size: 15px;
+    }
+    body>main>section>div#education{
+        position: absolute;
+        height: 660px;
+        width: 90%;
+        z-index: 1;
+        top: 1570px;
+        border-radius: 5px;
+        box-shadow: 0.1px 3px 10px 1px cyan;
+        left: 5%;
+        background: url("../assets/education.gif");
+    }
+    body>main>section>div#education>h1{
+        margin-top: 10px;
+        margin-left: 30px;
+        color: blue;
+        font-size: 15px;
+        display: inline-block;
+        border-bottom: 2px solid blue;
+    }
+    body>main>section>div#education>div{
+        margin: auto;
+        position: absolute;
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 80%;
+    }
+    body>main>section>div#education>div>ul{
+        position: relative;
+        list-style: none;
+    }
+    body>main>section>div#education>div>ul>li{
+        position: relative;
+        width: 90%;
+        font-size: 15px;
+        float: left;
+        clear: left;
+    }
+    .dotseeneka{
+        border-radius: 50%;
+        height: 16px;
+        line-height: 50px;
+        position: absolute;
+        right: -19px;
+        text-align: center;
+        top: 23px;
+        width: 16px;
+        box-shadow: 0.1px 3px 10px 1px navy;
+    }
+    body>main>section>div#education>div>ul>li>div#dot1{
+        right: -8px;
+        top: 35px;
+        background-color: mediumspringgreen;
+    }
+    body>main>section>div#education>div>ul>li>div#education1{
+        width: calc(100% - 50px);
+        float: left;
+        position: relative;
+        min-height: inherit;
+        overflow: visible;
+        padding: 45px 25px;
+        padding-top: 30px;
+        box-shadow: 0.1px 3px 10px 1px mediumspringgreen;
+        border-top: 5px solid mediumspringgreen;
+        background-color: white;
+        -webkit-box-sizing: border-box;
+    }
+    body>main>section>div#education>div>ul>li>div#education1:after{
+        position: absolute;
+        top: 30px;
+        right: -10px;
+        display: inline-block;
+        border-top: 10px solid transparent;
+        border-left: 10px solid #fff;
+        border-right: 0 solid #fff;
+        border-bottom: 10px solid transparent;
+        content: " ";
+    }
+    body>main>section>div#education>div>ul>li>div#dot2{
+        left: -8px;
+        top: 35px;
+        background-color: yellow;
+    }
+    body>main>section>div#education>div>ul>li>div#education2{
+        width: calc(100% - 50px);
+        float: right;
+        position: relative;
+        min-height: inherit;
+        overflow: visible;
+        padding: 45px 25px;
+        padding-top: 30px;
+        box-shadow: 0.1px 3px 10px 1px yellow;
+        border-top: 5px solid yellow;
+        background-color: white;
+        -webkit-box-sizing: border-box;
+    }
+    body>main>section>div#education>div>ul>li>div#education2:after{
+        position: absolute;
+        top: 30px;
+        left: -10px;
+        display: inline-block;
+        border-top: 10px solid transparent;
+        border-right: 10px solid #fff;
+        border-left: 0 solid #fff;
+        border-bottom: 10px solid transparent;
+        content: " ";
+    }
+    body>main>section>div#education>div>ul>li#invertli{
+        float: right;
+        clear: right;
+        margin-top: 0px;
+    }
+    body>main>section>div#education>div>ul>li>div#dot3{
+        right: -8px;
+        top: 35px;
+        background-color: fuchsia;
+    }
+    body>main>section>div#education>div>ul>li>div#education3{
+        width: calc(100% - 50px);
+        float: left;
+        position: relative;
+        min-height: inherit;
+        overflow: visible;
+        padding: 45px 25px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        box-shadow: 0.1px 3px 10px 1px fuchsia;
+        border-top: 5px solid fuchsia;
+        background-color: white;
+        -webkit-box-sizing: border-box;
+    }
+    body>main>section>div#education>div>ul>li>div#education3:after{
+        position: absolute;
+        top: 30px;
+        right: -10px;
+        display: inline-block;
+        border-top: 10px solid transparent;
+        border-left: 10px solid #fff;
+        border-right: 0 solid #fff;
+        border-bottom: 10px solid transparent;
+        content: " ";
+    }
+    body>main>section>div#education>div>ul>li#li3{
+        float: left;
+        clear: left;
+        margin-top: 0px;
+    }
+    body>main>section>div#projects{
+        position: absolute;
+        height: 1940px;
+        width: 90%;
+        top: 2250px;
+        border-radius: 5px;
+        box-shadow: 0.1px 3px 10px 1px yellow;
+        left: 5%;
+    }
+    body>main>section>div#projects>h1{
+        margin-top: 10px;
+        display: inline-block;
+        border-bottom: 2px solid blue;
+        margin-left: 30px;
+        font-size: 15px;
+        color: blue;
+    }
+    body>main>section>div#projects>div{
+        display: grid;
+        width: 100%;
+        height: 700px;
+        grid-gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    body>main>section>div#projects>div>a>div{
+        border-radius: 5px;
+        margin-left: 10%;
+        height: 300px;
+        width: 80%;
+        position: relative;
+        box-shadow: 0.1px 3px 10px 1px red;
+        cursor: pointer;
+    }
+    body>main>section>div#projects>div>a>div>img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    body>main>section>div#projects>div>a>div>div{
+        position: absolute;
+        margin: auto;
+        text-align: center;
+        color: white;
+        text-shadow: 2px -2px black;
+        z-index: 2;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    body>main>section>div#projects>div>a>div>div>h4{
+        margin-top: 100px;
+        font-size: 15px;
+    }
+    body>main>section>div#projects>div>a>div>div>p{
+        margin-top: 40px;
+    }
+    body>footer{
+        position: absolute;
+        height: 95px;
+        width: 90%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 4210px;
+        z-index: 3;
+        background: white ;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    body>footer>h1{
+        font-size: 15px;
+        color: blue;
+    }
+    body>footer>ul{
+        list-style: none;
+    }
+    body>footer>ul>li#whatsapp{
+        color: green;
+    }
+    body>footer>ul>li#email{
+        color: tomato;
+        font-size: 10px;
+    }
+    body>footer>ul>li>i{
+        display: inline;
+        margin-right: 10px;
+    }
+    body>footer>ul>li>p{
+        display: inline;
+        cursor: text;
+    }
+}

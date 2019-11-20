@@ -1,0 +1,88 @@
+body>main>section>div#projects, body>main>section>div#education, body>header>div, body>main>nav>div, body>main>section>div#aboutme, body>main>section>div#skillsdiv{
+    transition: all 20s;
+}
+body>main>section>div#skillsdiv>div>div>div, body>main>nav>div>img#me, body>main>nav>div>div>ul>a>li{
+    transition: all 1s;
+}
+body>main>section>div#education>div>ul>li>div#education1, body>main>section>div#education>div>ul>li>div#education2, body>main>section>div#education>div>ul>li>div#education3, body>header>div>ul>a>li>div, body>main>nav>div>ul>a>li>i, #edmlover, #comicreader, #martialartist, #photographer{
+    transition: all 2s;
+}
+body>header>div:hover{
+    box-shadow: 0.1px 3px 10px 1px blue;
+    transition: all 1s;
+}
+body>header>div>ul>a>li>div:hover{
+    font-size: 20px;
+    color: blue;
+    transition: all 3s;
+}
+body>main>nav>div:hover{
+    box-shadow: 0.1px 3px 10px 1px forestgreen;
+    transition: all 1s;
+}
+body>main>nav>div>img#me:hover{
+    width: 33%;
+    height: 30%;
+    transition: all 1s;
+}
+body>main>nav>div>ul>a>li>i:hover{
+    font-size: 40px;
+    transition: all 1s;
+}
+body>main>nav>div>div>ul>a>li:hover{
+    font-size: 20px;
+    transition: all 1s;
+}
+body>main>section>div#aboutme:hover{
+    box-shadow: 0.1px 3px 10px 1px orangered;
+    transition: all 1s;
+}
+#edmlover:hover{
+    background: darkred;
+    color: white;
+    transition: all 2s;
+}
+#comicreader:hover{
+    background: forestgreen;
+    color: white;
+    transition: all 2s;
+}
+#martialartist:hover{
+    background: purple;
+    color: white;
+    transition: all 2s;
+}
+#photographer:hover{
+    background: darkorange;
+    color: white;
+    transition: all 2s;
+}
+body>main>section>div#skillsdiv:hover{
+    box-shadow: 0.1px 3px 10px 1px deeppink;
+    transition: all 1s;
+}
+body>main>section>div#skillsdiv>div>div>div:hover{
+    border-radius: 0%;
+    box-shadow: 0.1px 3px 10px 1px white;
+    transition: all 1s;
+}
+body>main>section>div#education:hover{
+    box-shadow: 0.1px 3px 10px 1px cyan;
+    transition: all 1s;
+}
+body>main>section>div#education>div>ul>li>div#education1:hover{
+    box-shadow: 0.1px 3px 10px 5px mediumspringgreen;
+    transition: all 1s;
+}
+body>main>section>div#education>div>ul>li>div#education2:hover{
+    box-shadow: 0.1px 3px 10px 5px mediumspringgreen;
+    transition: all 1s;
+}
+body>main>section>div#education>div>ul>li>div#education3:hover{
+    box-shadow: 0.1px 3px 10px 5px mediumspringgreen;
+    transition: all 1s;
+}
+body>main>section>div#projects:hover{
+    box-shadow: 0.1px 3px 10px 1px midnightblue;
+    transition: all 1s;
+}
